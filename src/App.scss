@@ -1,3 +1,5 @@
+$bg: #fff;
+
 .App {
   text-align: center;
 }
@@ -21,7 +23,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: $bg;
 }
 
 .App-link {
