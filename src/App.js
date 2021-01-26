@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import './App.scss';
 import ProgressBar from './components/progressBar'
@@ -11,7 +11,11 @@ class App extends React.Component {
           size:200,
           strokeWidth:15,
           circleOneStroke: '#d9edfe',
-          circleTwoStroke: '#7ea9e1'
+          circleTwoStroke: '#7ea9e1',
+          fontSize: '1em',
+          fontColor: '#000',
+          fontFamily: 'Arial, sans-serif',
+          transitionTime: 2
     }
   }
 
